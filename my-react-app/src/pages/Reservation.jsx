@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { format } from "date-fns";
-import Header from "../components/Header";
 import Card from "../components/Card";
 import Select from "../components/Select";
 import Button from "../components/Button";
@@ -17,8 +16,7 @@ export default function Reservation() {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-100">
-      <Header />
+    <div className="min-h-screen bg-gray-100 mt-40">
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="md:col-span-2">

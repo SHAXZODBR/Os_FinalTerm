@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Header from "../components/Header";
 import Card from "../components/Card";
 import Select from "../components/Select";
 import Button from "../components/Button";
@@ -22,8 +21,7 @@ export default function Homepage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100">
-      <Header />
+    <div className="min-h-screen bg-gray-100 mt-40">
       <div className="container mx-auto px-4 py-16">
         <Card className="max-w-lg mx-auto">
           <h1 className="text-3xl font-bold text-center mb-8">

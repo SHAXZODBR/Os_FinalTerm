@@ -1,4 +1,4 @@
-import { Button } from "./Button";
+import Button from "./Button";
 import { Room } from "./Room"; // Import RoomForm
 
 const RoomForm = () => {

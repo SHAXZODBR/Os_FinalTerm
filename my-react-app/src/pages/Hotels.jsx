@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Search, Star } from "lucide-react";
-import Header from "../components/Header";
 import Card from "../components/Card";
 
 const HOTELS = [
@@ -18,8 +17,7 @@ const HOTELS = [
 
 export default function Hotels() {
   return (
-    <div className="min-h-screen bg-gray-100">
-      <Header />
+    <div className="min-h-screen bg-gray-100 mt-40">
       <div className="container mx-auto px-4 py-8">
         <div className="flex justify-between items-center mb-6">
           <h1 className="text-2xl font-bold">Hotels in Tashkent</h1>

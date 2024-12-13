@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Header from "../components/Header";
 import Card from "../components/Card";
 import Button from "../components/Button";
 
@@ -13,8 +12,7 @@ export default function Login() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100">
-      <Header title="Log in" />
+    <div className="min-h-screen bg-gray-100 mt-40">
       <div className="container mx-auto px-4 py-8">
         <Card className="max-w-md mx-auto">
           <h2 className="text-2xl font-semibold text-center mb-6">
