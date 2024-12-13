@@ -28,7 +28,7 @@ function App() {
         <NavBar />
         <Routes>
           {/* Root route for the booking portal */}
-          <Route path="/" index element={<Registration />} />
+          <Route path="/" index element={<Homepage />} />
 
           <Route path="/check-out-details" element={<CheckOutDetails />} />
           <Route path="/check-in-details" element={<CheckInDetails />} />
